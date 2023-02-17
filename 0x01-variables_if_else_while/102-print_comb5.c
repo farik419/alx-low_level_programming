@@ -1,7 +1,12 @@
 #include <stdio.h>
 /**
+<<<<<<< HEAD
  * main - main block
  * Return: Always 0
+=======
+ * main - Entry point
+ * Return: Always 0.
+>>>>>>> 184de75f2e71daf283c7fc1fdd6df8cabd098342
  */
 int main(void)
 {
