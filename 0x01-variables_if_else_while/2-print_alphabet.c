@@ -1,11 +1,10 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Entry point
- *
- * Return: Always  0 (success)
+ * main - main block
+ * Description: Use `putchar` function to print alphabets.
+ * Return: 0
  */
-
 int main(void)
 {
 char c = 'a';
