@@ -1,20 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - main block
- * Description: Use `putchar` function to print alphabets.
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always  0 (success)
  */
+
 int main(void)
 {
-char c = 'a';
+char c;
 
-while (c <= 'z')
+c = 'a';
+
+while 
+(c <= 'z')
 {
 putchar(c);
 c++;
 }
-putchar('\n');
+putchar('\n");
 return (0);
 }
