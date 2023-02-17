@@ -1,20 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: Use `purchar` to print all lowercase without q and e
- * Return: 0
+ * main - Entry point
+ * Return: Always 0.
  */
 int main(void)
 {
-        char c = 'a';
-
-        while (c <= 'z')
-        {
-                if (c != 'q' && c != 'e')
-                        putchar(c);
-                c++;
-        }
-        putchar('\n');
-        return (0);
+int num1, num2;
+for (num1 = 0; num1 <= 98; num1++)
+{
+for (num2 = num1 + 1; num2 <= 99; num2++)
+{
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
+putchar(' ');
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
+if (num1 == 98 && num2 == 99)
+continue;
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
 }
