@@ -4,7 +4,7 @@
 /**
  * main - main block
  * Description: prints "is it positive or negative"
- * Return: 0
+ * Return: 0 (Success)
  */
 int main(void)
 {
