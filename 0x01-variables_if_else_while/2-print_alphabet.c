@@ -5,19 +5,15 @@
  *
  * Return: Always  0 (success)
  */
-
 int main(void)
 {
-char c;
+char c = 'a';
 
-c = 'a';
-
-while 
-(c <= 'z')
+while (c <= 'z')
 {
 putchar(c);
 c++;
 }
-putchar('\n");
+putchar('\n');
 return (0);
 }
