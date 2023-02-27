@@ -23,6 +23,6 @@ if (o % 2 == 0)
 {
 _putchar(str[o]);
 }
-}
+{
 _putchar('\n');
 }
