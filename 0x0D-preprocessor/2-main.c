@@ -1,4 +1,4 @@
-#include <stdio.h>i
+#include <stdio.h>
 /**
  * main - prints the name of the file
  *
